@@ -1,14 +1,12 @@
 header {
   background: white;
-  margin: auto;
 }
 
-.title {
+a .title {
   color: black;
   text-decoration: none;
 }
 
-.container {
-  width: 960px;
-  margin: auto;
+.flexit {
+  display: flex;
 }
