@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{f4EL:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),c=t.n(a);e.default=function(){return c.a.createElement("section",null,c.a.createElement("h1",null,"Call to Action"))}}}]);
-//# sourceMappingURL=component---src-pages-sections-call-to-action-js-5c94198fe3aa38a28f43.js.map
