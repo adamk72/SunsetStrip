@@ -1,0 +1,14 @@
+header {
+  background: rebeccapurple;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}

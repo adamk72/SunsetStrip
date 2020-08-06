@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"2c9r":function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),c=t.n(a);e.default=function(){return c.a.createElement("section",null,c.a.createElement("h1",null,"Testimonials"))}}}]);
+//# sourceMappingURL=component---src-pages-sections-testimonials-js-c8a0b4539f7aae0b3cdc.js.map

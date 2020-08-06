@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{dOHE:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),c=n.n(a);t.default=function(){return c.a.createElement(c.a.Fragment,null,c.a.createElement("section",null,c.a.createElement("img",{src:"https://picsum.photos/960/300",alt:"Lorem Picsum"})))}}}]);
+//# sourceMappingURL=component---src-pages-sections-hero-image-js-80c8c046059a254566b7.js.map
