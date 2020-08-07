@@ -29,10 +29,8 @@ const Layout = ({ children }) => {
     <>
       <ContactHeader />
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className='container'>
-        <main>{children}</main>
-        <Footer />
-      </div>
+      <main>{children}</main>
+      <Footer />
     </>
   )
 }

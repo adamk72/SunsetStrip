@@ -1,0 +1,20 @@
+.navBar {
+  margin-top: 0;
+}
+
+.navBar nav > ul {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  list-style: none;
+  margin-left: 5rem;
+}
+
+.navBar nav > ul > li + li {
+  margin-left: 1rem;
+}
+
+.navBar nav > ul > li {
+  margin-top: 0;
+}
+/*# sourceMappingURL=NavBar.module.css.map */

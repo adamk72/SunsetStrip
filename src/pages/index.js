@@ -21,8 +21,8 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <SEO title="Home" />
-      <CallToAction />
       <HeroImage />
+      <CallToAction />
       <Services />
       <Testimonials />
     </Layout>

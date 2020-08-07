@@ -1,11 +1,12 @@
 import React from 'react'
+import Section from '../../components/Section'
 
 function HeroImage() {
     return (
         <>
-            <section>
-                <img src="https://picsum.photos/960/300" alt="Lorem Picsum" />
-            </section>
+            <Section className="center">
+                <img src="https://picsum.photos/1024/450" alt="Lorem Picsum" />
+            </Section>
         </>
     )
 }
