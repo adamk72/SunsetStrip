@@ -7,6 +7,8 @@ import HeroImage from './sections/HeroImage';
 import Services from './sections/Services';
 import Testimonials from './sections/Testimonials'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const theme = createMuiTheme({
   spacing: factor => `${0.25 * factor}rem`,
