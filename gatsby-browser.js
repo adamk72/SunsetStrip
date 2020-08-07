@@ -12,7 +12,8 @@ const theme = createMuiTheme({
     spacing: factor => `${0.25 * factor}rem`,
     palette: {
         // primary: { main: '#663399' },
-        primary: { main: '#000' },
+        primary: { main: '#663399' }, // rebeccapurple
+        secondary: { main: '#23994A' } // Green
     }
 })
 
