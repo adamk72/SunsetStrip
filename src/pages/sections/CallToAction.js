@@ -1,10 +1,11 @@
 import React from 'react'
+import Section from '../../components/Section'
 
 function CallToAction() {
     return (
-        <section>
+        <Section>
             <h1>Call to Action</h1>
-        </section>
+        </Section>
     )
 }
 

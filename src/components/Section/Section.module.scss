@@ -1,0 +1,15 @@
+.normal {
+  composes: container from "../../scss/index.scss";
+  // width: 75vw;
+  // margin-left: auto;
+  // margin-right: auto;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.wide {
+  composes: normal;
+  width: 100vw;
+}

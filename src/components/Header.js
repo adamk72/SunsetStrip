@@ -1,10 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import NavBar from './NavBar'
+import NavBar from './NavBar/index'
 import { makeStyles } from '@material-ui/core/styles';
-import cx from 'classnames'
-
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -1,10 +1,11 @@
 import React from 'react'
+import Section from '../../components/Section'
 
 function Testimonials() {
     return (
-        <section>
+        <Section>
             <h1>Testimonials</h1>
-        </section>
+        </Section>
     )
 }
 

@@ -1,0 +1,15 @@
+.normal {
+  composes: container from "../../scss/index.scss";
+}
+
+.normal img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wide {
+  composes: normal;
+  width: 100vw;
+}
+/*# sourceMappingURL=Section.module.css.map */
