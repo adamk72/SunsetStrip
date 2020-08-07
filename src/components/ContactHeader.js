@@ -1,6 +1,5 @@
 import PropTypes from "prop-types"
 import React from "react"
-import cx from 'classnames'
 
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
@@ -15,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         alignItems: 'flex-start',
         marginBottom: theme.spacing('4'),
+        border: '1px black dotted',
     },
     navIcon: {
         marginRight: '5px'
@@ -24,12 +24,14 @@ const useStyles = makeStyles((theme) => ({
 const ContactHeader = ({ siteTitle }) => {
     const classes = useStyles();
     return (
-        <div className={cx(classes.root)}>
-            <ButtonGroup variant="contained" color="primary" aria-label="contained primary button group">
-                <Button><Instagram className={classes.navIcon} />Instagram</Button>
-                <Button><Facebook className={classes.navIcon} />Facebook</Button>
-                <Button><Phone className={classes.navIcon} />Phone</Button>
-            </ButtonGroup>
+        <div className={classes.root}>
+            <div className="container">
+                <ButtonGroup variant="contained" color="primary" aria-label="contained primary button group" >
+                    <Button><Instagram className={classes.navIcon} />Instagram</Button>
+                    <Button><Facebook className={classes.navIcon} />Facebook</Button>
+                    <Button><Phone className={classes.navIcon} />Phone</Button>
+                </ButtonGroup>
+            </div>
         </div>
     )
 }
