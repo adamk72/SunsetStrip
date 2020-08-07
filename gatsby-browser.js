@@ -6,6 +6,7 @@
 
 import React from 'react'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import Layout from './src/components/Layout'
 
 const theme = createMuiTheme({
     spacing: factor => `${0.25 * factor}rem`,
@@ -21,6 +22,14 @@ export const wrapRootElement = ({ element }) => {
             {element}
         </ThemeProvider>
     )
+}
+
+
+
+export const wrapPageElement = ({ element, props }) => {
+    // props provide same data to Layout as Page element will get
+    // including location, data, etc - you don't need to pass it
+    return <Layout {...props}>{element}</Layout>
 }
 
 
