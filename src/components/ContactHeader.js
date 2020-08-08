@@ -7,8 +7,6 @@ import Instagram from '@material-ui/icons/Instagram';
 import Phone from '@material-ui/icons/Phone';
 import Facebook from '@material-ui/icons/Facebook';
 import { makeStyles } from '@material-ui/core/styles';
-import { Icon, InlineIcon } from '@iconify/react';
-import yelpIcon from '@iconify/icons-mdi/yelp';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -32,7 +30,6 @@ const ContactHeader = ({ siteTitle }) => {
                     <Button><Instagram className={classes.navIcon} />Instagram</Button>
                     <Button><Facebook className={classes.navIcon} />Facebook</Button>
                     <Button><Phone className={classes.navIcon} />Phone</Button>
-                    <Button><Icon icon={yelpIcon} style={{ fontSize: '25px' }} />Yelp</Button>
                 </ButtonGroup>
             </div>
         </div>
