@@ -1,6 +1,6 @@
 import React from "react"
 
-import SEO from "../components/seo"
+import SEO from "../components/Seo"
 import CallToAction from "./sections/CallToAction"
 import HeroImage from './sections/HeroImage';
 import Services from './sections/Services';
